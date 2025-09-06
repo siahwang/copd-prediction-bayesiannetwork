@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Large files
+*.pdf
+!docs/thesis.pdf
+data/raw/*
+data/processed/*
+
+# Models
+*.pkl
+*.joblib
+*.h5
+
+# OS
+.DS_Store
+.Rhistory
+.RData
